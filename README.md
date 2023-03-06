@@ -23,3 +23,23 @@ tensorflow==2.2.1
 * **xtrains.py**: training models with checkpoints
 * **utils.py**: utilities for training such as batch generator and evaluators.
 
+
+### To Cite
+@article{qu2023lfacon,
+  title={LFACon: Introducing Anglewise Attention to No-Reference Quality Assessment in Light Field Space},
+  author={Qu, Qiang and Chen, Xiaoming and Chung, Yuk Ying and Cai, Weidong},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2023},
+  publisher={IEEE}
+}
+
+@article{qu2021light,
+  title={Light field image quality assessment with auxiliary learning based on depthwise and anglewise separable convolutions},
+  author={Qu, Qiang and Chen, Xiaoming and Chung, Vera and Chen, Zhibo},
+  journal={IEEE Transactions on Broadcasting},
+  volume={67},
+  number={4},
+  pages={837--850},
+  year={2021},
+  publisher={IEEE}
+}
