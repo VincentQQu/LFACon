@@ -6,12 +6,12 @@ To be updated
 
 
 ### Requirements
-matplotlib==3.3.0 \n
-numpy==1.18.5
-pandas==1.0.5
-Pillow==9.4.0
-scipy==1.5.0
-seaborn==0.10.1
+matplotlib==3.3.0,
+numpy==1.18.5,
+pandas==1.0.5,
+Pillow==9.4.0,
+scipy==1.5.0,
+seaborn==0.10.1,
 tensorflow==2.2.1
 
 
