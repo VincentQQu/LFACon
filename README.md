@@ -6,7 +6,7 @@ To be updated
 
 
 ### Requirements
-matplotlib==3.3.0 \\
+matplotlib==3.3.0 \n
 numpy==1.18.5
 pandas==1.0.5
 Pillow==9.4.0
