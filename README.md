@@ -17,9 +17,9 @@ tensorflow==2.2.1
 
 
 ### File Descriptions
-*xpreprocess.py: essentials to convert massive raw LFI dataset into tidy trainable train-test-splitted data (including some data augmentation functions)
-*xmodels.py: definiation of LFACon and its layers
-*constants.py: storing global variables
-*xtrains.py: training models with checkpoints
-*utils.py: utilities for training such as batch generator and evaluators.
+* xpreprocess.py: essentials to convert massive raw LFI dataset into tidy trainable train-test-splitted data (including some data augmentation functions)
+* xmodels.py: definiation of LFACon and its layers
+* constants.py: storing global variables
+* xtrains.py: training models with checkpoints
+* utils.py: utilities for training such as batch generator and evaluators.
 
