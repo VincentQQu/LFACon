@@ -2,6 +2,8 @@ dataset_name = "MPI-LFA" # Win5-LID SMART
 aug_factor = 'x8' # x32 x8
 reduce_1 = True
 no_wlbp=True
+
+
 if dataset_name == "Win5-LID":
   # 9×9×434×625×3
   dataset_size=220
