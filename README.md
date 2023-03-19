@@ -26,23 +26,23 @@ tensorflow==2.2.1
 
 ### To Cite
 <pre>
-@article{qu2023lfacon,<br />
-  title={LFACon: Introducing Anglewise Attention to No-Reference Quality Assessment in Light Field Space},<br />
-  author={Qu, Qiang and Chen, Xiaoming and Chung, Yuk Ying and Cai, Weidong},<br />
-  journal={IEEE Transactions on Visualization and Computer Graphics},<br />
-  year={2023},<br />
-  publisher={IEEE}<br />
+@article{qu2023lfacon,
+  title={LFACon: Introducing Anglewise Attention to No-Reference Quality Assessment in Light Field Space},
+  author={Qu, Qiang and Chen, Xiaoming and Chung, Yuk Ying and Cai, Weidong},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2023},
+  publisher={IEEE}
 }
 
 @article{qu2021light,
-  title={Light field image quality assessment with auxiliary learning based on depthwise and anglewise separable convolutions},<br />
-  author={Qu, Qiang and Chen, Xiaoming and Chung, Vera and Chen, Zhibo},<br />
-  journal={IEEE Transactions on Broadcasting},<br />
-  volume={67},<br />
-  number={4},<br />
-  pages={837--850},<br />
-  year={2021},<br />
-  publisher={IEEE}<br />
+  title={Light field image quality assessment with auxiliary learning based on depthwise and anglewise separable convolutions},
+  author={Qu, Qiang and Chen, Xiaoming and Chung, Vera and Chen, Zhibo},
+  journal={IEEE Transactions on Broadcasting},
+  volume={67},
+  number={4},
+  pages={837--850},
+  year={2021},
+  publisher={IEEE}
 }
 </pre>
 
