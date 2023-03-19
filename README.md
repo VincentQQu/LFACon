@@ -25,6 +25,7 @@ tensorflow==2.2.1
 
 
 ### To Cite
+<pre>
 @article{qu2023lfacon,<br />
   title={LFACon: Introducing Anglewise Attention to No-Reference Quality Assessment in Light Field Space},<br />
   author={Qu, Qiang and Chen, Xiaoming and Chung, Yuk Ying and Cai, Weidong},<br />
@@ -43,6 +44,6 @@ tensorflow==2.2.1
   year={2021},<br />
   publisher={IEEE}<br />
 }
-
+</pre>
 
 ### To Be Updated
