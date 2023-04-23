@@ -1,8 +1,27 @@
 # LFACon
 This is the repository for paper *"LFACon: Introducing Anglewise Attention to No-Reference Quality Assessment in Light Field Space"* published on [IEEE TVCG](https://ieeexplore.ieee.org/document/10049721) and paper *"Light Field Image Quality Assessment With Auxiliary Learning Based on Depthwise and Anglewise Separable Convolutions"* published on [IEEE TBC](https://ieeexplore.ieee.org/abstract/document/9505016).
 
-To be updated
 
+### New: Predict Quality Scores Using LFACon
+Due to GitHub's size limitations, the complete project, including model weights, has been uploaded to Google Drive.
+
+To obtain quality scores using LFACon, follow these steps:
+
+1. Download the entire folder from [Google Drive](https://drive.google.com/drive/folders/1Bh-sxVQCevkhkRCx0eMCeeFhWXHKAQqv?usp=sharing).
+2. Place the Light Field Image (LFI) you want to assess into one of the dataset folders: `./Dataset/Win5-LID`, `./Dataset/SMART`, or `./Dataset/MPI-LFA`. Two sample LFIs have been provided in each folder for your convenience.
+3. Modify line 1 of `constants.py` to reflect the dataset folder you placed the LFI in (i.e., `Win5-LID`, `SMART`, or `MPI-LFA`).
+4. Run `python3 app.py`.
+5. The results will be displayed in the terminal and saved to `./Datasets/quality_predictions/`.
+
+Please note that Win5-LID, SMART, and MPI-LFA use different scoring systems:
+
+- Win5-LID employs a Mean Opinion Score (MOS) ranging from 1 to 5.
+- SMART uses the Bradley-Terry (BT) scoring system, which typically ranges from -13 to 0.
+- MPI-LFA utilizes the Just Objectionable Difference (JOD) score, with a normal range of -9 to 0.
+
+In all the scoring systems mentioned above, higher values indicate better quality.
+
+Keep in mind that LFACon will estimate the quality based on different scoring systems depending on the dataset folder you place your LFI in.
 
 
 ### Requirements
@@ -13,7 +32,6 @@ Pillow==9.5.0,
 scipy==1.10.1,
 seaborn==0.10.1,
 tensorflow==2.10.1
-
 
 
 
@@ -46,5 +64,6 @@ tensorflow==2.10.1
   publisher={IEEE}
 }
 </pre>
+
 
 ### To Be Updated
