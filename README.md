@@ -21,7 +21,7 @@ Please note that Win5-LID, SMART, and MPI-LFA use different scoring systems:
 
 In all the scoring systems mentioned above, higher values indicate better quality.
 
-Keep in mind that LFACon will estimate the quality based on different scoring systems depending on the dataset folder you place your LFI in.
+Keep in mind that **LFACon will estimate the quality based on different scoring systems** depending on the dataset folder you place your LFI in.
 
 
 ### Requirements
