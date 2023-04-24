@@ -48,9 +48,13 @@ tensorflow==2.10.1
 @article{qu2023lfacon,
   title={LFACon: Introducing Anglewise Attention to No-Reference Quality Assessment in Light Field Space},
   author={Qu, Qiang and Chen, Xiaoming and Chung, Yuk Ying and Cai, Weidong},
-  journal={IEEE Transactions on Visualization and Computer Graphics},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={LFACon: Introducing Anglewise Attention to No-Reference Quality Assessment in Light Field Space}, 
   year={2023},
-  publisher={IEEE}
+  volume={29},
+  number={5},
+  pages={2239-2248},
+  doi={10.1109/TVCG.2023.3247069}
 }
 
 @article{qu2021light,
