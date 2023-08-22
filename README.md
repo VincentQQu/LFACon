@@ -2,6 +2,9 @@
 This is the repository for paper *"LFACon: Introducing Anglewise Attention to No-Reference Quality Assessment in Light Field Space"* published on [IEEE TVCG](https://ieeexplore.ieee.org/document/10049721) and paper *"Light Field Image Quality Assessment With Auxiliary Learning Based on Depthwise and Anglewise Separable Convolutions"* published on [IEEE TBC](https://ieeexplore.ieee.org/abstract/document/9505016).
 
 
+
+============= model weights to be updated ======================
+
 ### New: Predict Quality Scores Using LFACon
 Due to GitHub's size limitations, the complete project, including model weights, has been uploaded to Google Drive.
 
