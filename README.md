@@ -10,7 +10,7 @@ Due to GitHub's size limitations, the complete project, including model weights,
 
 To obtain quality scores using LFACon, follow these steps:
 
-1. Download and unzip the entire folder (~1 GB, mean and std to normalise LFIs contribute a lot) from [Google Drive](https://drive.google.com/drive/folders/1Bh-sxVQCevkhkRCx0eMCeeFhWXHKAQqv?usp=sharing). ======= [Attention]: there might be something wrong with the model weights due to version management discrepancies. The correct version will be uploaded soon. =========
+1. Download and unzip the entire folder (~1 GB, mean and std to normalise LFIs contribute a lot) from [Google Drive](https://drive.google.com/drive/folders/1Bh-sxVQCevkhkRCx0eMCeeFhWXHKAQqv?usp=sharing). **Notice**: Model weights prior to August 24, 2023 are incorrect. Kindly update both `app.py` and the model weights from google drive to ensure accurate validation.
 2. Place the Light Field Image (LFI) you want to assess into one of the dataset folders: `./Dataset/Win5-LID`, `./Dataset/SMART`, or `./Dataset/MPI-LFA`. Two sample LFIs have been provided in each folder for your convenience.
 3. Modify line 1 of `constants.py` to reflect the dataset folder you placed the LFI in (i.e., `Win5-LID`, `SMART`, or `MPI-LFA`).
 4. Run `python3 app.py`.
