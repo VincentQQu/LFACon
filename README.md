@@ -3,7 +3,7 @@ This is the repository for paper *"LFACon: Introducing Anglewise Attention to No
 
 
 
-============= [Attention]: there might be something wrong with the model weights due to version management discrepancies. The correct version will be uploaded soon. ======================
+======= [Attention]: there might be something wrong with the model weights due to version management discrepancies. The correct version will be uploaded soon. =========
 
 ### New: Predict Quality Scores Using LFACon
 Due to GitHub's size limitations, the complete project, including model weights, has been uploaded to Google Drive.
