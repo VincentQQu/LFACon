@@ -6,7 +6,6 @@ This is the repository for paper *"LFACon: Introducing Anglewise Attention to No
 
 
 ### New: Predict Quality Scores Using LFACon
-#### **Notice**: Model weights prior to August 24, 2023 are incorrect. Kindly update both `app.py` and the model weights from google drive to ensure accurate validation.
 Due to GitHub's size limitations, the complete project, including model weights, has been uploaded to Google Drive.
 
 To obtain quality scores using LFACon, follow these steps:
