@@ -13,6 +13,7 @@ To obtain quality scores using LFACon, follow these steps:
 1. Download and unzip the entire folder (~1 GB, mean and std to normalise LFIs contribute a lot) from [Google Drive](https://drive.google.com/drive/folders/1Bh-sxVQCevkhkRCx0eMCeeFhWXHKAQqv?usp=sharing).
 2. Place the Light Field Image (LFI) you want to assess into one of the dataset folders: `./Dataset/Win5-LID`, `./Dataset/SMART`, or `./Dataset/MPI-LFA`. Two sample LFIs have been provided in each folder for your convenience.
 3. Modify line 1 of `constants.py` to reflect the dataset folder you placed the LFI in (i.e., `Win5-LID`, `SMART`, or `MPI-LFA`).
+3.1 To apply to a new dataset, ensure your LFI has a resolution of 7 x 7 x 434 x 434 x 3, and modify the `constants.py` file accordingly.
 4. Run `python3 app.py`.
 5. The results will be displayed in the terminal and saved to `./Datasets/quality_predictions/`.
 
@@ -20,7 +21,7 @@ Please note that Win5-LID, SMART, and MPI-LFA use different scoring systems:
 
 - Win5-LID employs a Mean Opinion Score (MOS) ranging from 1 to 5.
 - SMART uses the Bradley-Terry (BT) scoring system, which typically ranges from -13 to 0.
-- MPI-LFA utilizes the Just Objectionable Difference (JOD) score, with a normal range of -9 to 0.
+- MPI-LFA utilizes the Just Objectionable Difference (JOD) score, with a normal range of -9 to 0. Note: The LFI in MPI-LFA includes only the horizontal angular dimension, which may not be suitable for typical LFI that includes both horizontal and vertical angular dimensions.
 
 In all the scoring systems mentioned above, higher values indicate better quality.
 
