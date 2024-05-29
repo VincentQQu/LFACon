@@ -12,7 +12,7 @@ To obtain quality scores using LFACon, follow these steps:
 
 1. Download and unzip the entire folder (~1 GB, mean and std to normalise LFIs contribute a lot) from [Google Drive](https://drive.google.com/drive/folders/1Bh-sxVQCevkhkRCx0eMCeeFhWXHKAQqv?usp=sharing).
 2. Place the Light Field Image (LFI) you want to assess into one of the dataset folders: `./Dataset/Win5-LID`, `./Dataset/SMART`, or `./Dataset/MPI-LFA`. Two sample LFIs have been provided in each folder for your convenience.
-3. Modify line 1 of `constants.py` to reflect the dataset folder you placed the LFI in (i.e., `Win5-LID`, `SMART`, or `MPI-LFA`). Note: To apply to a new dataset, ensure your LFI has a resolution of 7 x 7 x 434 x 434 x 3 (either croping or up/downsampling), and modify the `constants.py` file accordingly.
+3. Modify line 1 of `constants.py` to reflect the dataset folder you placed the LFI in (i.e., `Win5-LID`, `SMART`, or `MPI-LFA`). Note: To apply to a new dataset, ensure your LFI has a resolution of 7 x 7 x 434 x 434 x 3 (either cropping or up/downsampling), and modify the `constants.py` file accordingly.
 4. Run `python3 app.py`.
 5. The results will be displayed in the terminal and saved to `./Datasets/quality_predictions/`.
 
