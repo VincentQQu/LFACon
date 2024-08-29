@@ -60,6 +60,16 @@ tensorflow==2.10.1
   doi={10.1109/TVCG.2023.3247069}
 }
 
+@inproceedings{qu2023lfacon_vr,
+  title={{LFACon}: Introducing Anglewise Attention to No-Reference Quality Assessment in Light Field Space},
+  author={Qu, Qiang and Chen, Xiaoming and Chung, Yuk Ying and Cai, Weidong},
+  booktitle={IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR)},
+  number={1},
+  pages={1--11},
+  year={2023},
+  publisher={IEEE}
+}
+
 @article{qu2021light,
   title={Light field image quality assessment with auxiliary learning based on depthwise and anglewise separable convolutions},
   author={Qu, Qiang and Chen, Xiaoming and Chung, Vera and Chen, Zhibo},
